@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Script for creating root lvm snapshot
+
+sudo lvcreate -l 100%FREE -s -n root_snap /dev/arch-lvm/arch-root
+

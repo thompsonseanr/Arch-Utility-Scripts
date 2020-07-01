@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Script to delete lvm snapshot
+
+sudo lvremove /dev/arch-lvm/root_snap
+

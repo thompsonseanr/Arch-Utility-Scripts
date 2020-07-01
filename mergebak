@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Script for merging lvm snapshot
+
+sudo lvconvert --merge /dev/arch-lvm/root_snap
+
