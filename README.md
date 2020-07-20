@@ -1,7 +1,10 @@
 # Arch-Utility-Scripts
 
 These are simple scripts written primarily for whenever I am performing Arch upgrades.
-**Note:** I used this guide for my installation. [How To Install Arch Linux Step by Step With Screenshots](https://computingforgeeks.com/install-arch-linux-with-lvm-on-uefi-system/)
+
+**Note:** I used this guide for my installation: [How To Install Arch Linux Step by Step With Screenshots](https://computingforgeeks.com/install-arch-linux-with-lvm-on-uefi-system/)
+
+**Disclaimer:** These scripts are meant to work with the setup illustrated in the link above. Everyone's system is slightly different so they are not meant to be merely cloned and run.
 
 **makebak:** script for making an lvm snapshot of my root directory prior to major upgrades.
 
