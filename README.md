@@ -6,10 +6,12 @@ These are simple scripts written primarily for whenever I am performing Arch upg
 
 **Disclaimer:** These scripts are meant to work with the setup illustrated in the link above. Everyone's system is slightly different so they are not meant to be merely cloned and run.
 
-**makebak:** script for making an lvm snapshot of my root directory prior to major upgrades.
+---
 
-**deletebak:** script for deleting lvm snapshot.
+- **makebak:** script for making an lvm snapshot of my root directory prior to major upgrades.
 
-**mergebak:** uh-oh, something happened during the upgrade and I need to roll back. This also works for those times you have to boot via arch usb and arch-chroot.
+- **deletebak:** script for deleting lvm snapshot.
 
-**journal_error_log:** Optimized error log to check errors after upgrades.
+- **mergebak:** uh-oh, something happened during the upgrade and I need to roll back. This also works for those times you have to boot via arch usb and arch-chroot.
+
+- **journal_error_log:** Optimized error log to check errors after upgrades.
